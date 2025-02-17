@@ -20,7 +20,7 @@ function onSubmit(evt) {
         position: 'topRight',
       })
     );
-  form.resset();
+  form.reset();
 }
 
 function createPromise(delay, state) {
