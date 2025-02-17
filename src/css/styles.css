@@ -16,3 +16,153 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.input-button{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    width: 355px;
+      height: 40px;
+      padding-left: 30px;
+      margin-bottom: 32px;
+}
+.input{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    width: 272px;
+      height: 40px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+.button{
+  box-sizing: border-box;
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+      border: none;
+}
+.timer{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    width: 346px;
+      height: 72px;
+      padding-left: 30px;
+}
+.value{
+  font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+.label{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+.button:disabled{
+background: #cfcfcf;
+font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+}
+
+.button:hover{
+  background: #6c8cff;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.input:hover{
+  border-radius: 6px;
+}
+.input:active{
+  border-color: 4E75FF;
+}
+
+
+.form{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 10px;
+}
+
+.label-form{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-form{
+  max-width: 360px;
+  width: 360px;
+    height: 40px;
+}
+.fieldset{
+  width: 360px;
+    height: 78px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: row;
+      gap: 8px;
+      
+}
+.label-fieldset{
+  margin-top: 24px;
+  margin-left: 48px;
+}
+
+.button-submit{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+      padding: 8px 16px;
+      width: 360px;
+      height: 40px;
+      background: #4e75ff;
+      font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        border: none;
+}
+.button-submit:hover{
+background: #6c8cff;
+}
